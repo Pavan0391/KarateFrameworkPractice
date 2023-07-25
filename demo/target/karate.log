@@ -1,0 +1,291 @@
+13:01:38.550 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+13:01:40.485 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+13:01:41.769 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+13:01:45.029 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+13:01:46.040 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+13:01:47.348 [main]  INFO  com.intuit.karate - Karate version: 1.4.0
+17:56:35.580 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+17:56:35.676 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+17:56:36.478 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/deleteAPI.feature:6
+17:56:36.581 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690201596580
+17:56:36.587 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6
+17:56:38.815 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:56:39.259 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 439
+1 < 204
+1 < Date: Mon, 24 Jul 2023 12:26:39 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gcg4yZ0luNVVVrZtna0J3XdRzWaPWvYUi5rx80meVGHPeCYttHEF3LUdQsC1vtTLkXQmS4CCy1bc5RuJh6k009Spxes4xuqdIV%2B%2FTPrTxdZ%2B6PB0UXMnIBkdbA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc2719bc133c01-BLR
+
+
+17:56:43.037 [Thread-1]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/deleteAPI.feature
+17:56:43.086 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+17:57:47.837 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+17:57:47.927 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+17:57:48.217 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/getAPI.feature:3
+17:57:48.299 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690201668298
+17:57:48.305 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+17:57:52.027 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:57:52.146 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 117
+1 < 200
+1 < Date: Mon, 24 Jul 2023 12:27:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5043
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zpiiC3JxwUu8MK8XwU4zYd3Fp7TRN01dlS3EYKbop%2BfSg9F0SBxlkpoQprjvZpDigjVPw4bOvQBQR6fsCTUEHF7WIMXoeGmkq4U401u0w2HMAo5llqaSiXmLtg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc28e36d343c07-BLR
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+17:57:56.466 [Thread-1]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/getAPI.feature
+17:57:56.520 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+17:57:56.524 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
+18:03:13.096 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:03:13.184 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:03:13.298 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/postAPI.feature:7
+18:03:13.385 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690201993383
+18:03:13.390 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+18:03:13.764 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Roger","job":"SDET","gender":"male","mail":"roger@gmail.com","status":"Inactive"}
+
+18:03:14.260 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 493
+1 < 201
+1 < Date: Mon, 24 Jul 2023 12:33:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 140
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"8c-PGlrgWWdqjYuM2VKHmw7N+zZSsk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ilFoNwFc%2Ff%2F%2BWlAWOD0%2F45okASp%2BiX%2FtowJZQtrRU%2FfkrIX0KmczRvQanVjQ9XKjFQKoPJaC3ss3hFMbAbhcQBH58coklArDUJKo9jyaBy7VC8HTX6SDS9rbyg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc30be89fc3c06-BLR
+{"name":"Roger","job":"SDET","gender":"male","mail":"roger@gmail.com","status":"Inactive","id":"439","createdAt":"2023-07-24T12:33:14.265Z"}
+
+18:03:17.247 [Thread-1]  INFO  com.intuit.karate - [print] {
+  "name": "Roger",
+  "job": "SDET",
+  "gender": "male",
+  "mail": "roger@gmail.com",
+  "status": "Inactive",
+  "id": "439",
+  "createdAt": "2023-07-24T12:33:14.265Z"
+}
+ 
+18:03:20.429 [Thread-1]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/postAPI.feature
+18:03:20.481 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+18:03:20.484 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
+18:03:39.240 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:03:39.331 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:03:39.797 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/postAPI.feature:7
+18:03:39.882 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690202019881
+18:03:39.887 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+18:03:40.260 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Roger","job":"SDET","gender":"male","mail":"roger@gmail.com","status":"Inactive"}
+
+18:03:40.705 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 439
+1 < 201
+1 < Date: Mon, 24 Jul 2023 12:33:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 140
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"8c-BhUzn5/GSsP/V6mIfadvWwQFiYE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=So33oxfZ00xTr8aU4WEuUo5GuzMcI1hwyMrILKNbnnaplDa3ZXOsd3WeAKe31n9uHnB4YiaVY3PjyD3ZiDZWB2kYF6DUcwJXNjg0TIOBSlCjQo7Vl%2B%2FNA2MAwg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc3163dfa23c06-BLR
+{"name":"Roger","job":"SDET","gender":"male","mail":"roger@gmail.com","status":"Inactive","id":"830","createdAt":"2023-07-24T12:33:40.696Z"}
+
+18:04:39.786 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:04:39.879 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:05:40.603 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:05:40.691 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:05:41.057 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/getAPI.feature:3
+18:05:41.151 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:05:41.512 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:05:41.627 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 112
+1 < 200
+1 < Date: Mon, 24 Jul 2023 12:35:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5512
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fgc6wBorosm40Qq6ZCjfUj4%2FFqo5%2FytJ4%2BeAgf6loKQx8IfhVkupev8MiY8Nj22QBlBjBdBe17XBodOfIMyaoqZTIcw7dTvCwD%2BBggRZUmh%2BXb%2BfX1G6Kw8JBw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc3459beb43c01-BLR
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:05:41.889 [Thread-1]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/getAPI.feature
+18:05:41.942 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+18:05:41.944 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
+18:05:54.114 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:05:54.202 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:05:54.725 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/getAPI.feature:3
+18:05:54.817 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690202154815
+18:05:54.822 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:05:56.236 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:05:56.349 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 111
+1 < 200
+1 < Date: Mon, 24 Jul 2023 12:35:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5527
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KNL83g%2BrHHstpWbaXmx0e5Tq6abrrYv0RPOW6%2BhslsVVgSDx3EnD%2FPinLVWI0TtVCuCBgTI52eUWVG095e3mDdUCcYJfpvj%2BdTllOQVscdGX1PTx27nJJOVwng%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc34b5b8b93c01-BLR
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:06:02.646 [nioEventLoopGroup-3-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+18:06:02.649 [nioEventLoopGroup-3-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
+18:15:08.285 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+18:15:08.385 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+18:15:09.362 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/getAPI.feature:3
+18:15:09.478 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:15:44.601 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:15:44.767 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 163
+1 < 200
+1 < Date: Mon, 24 Jul 2023 12:45:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6115
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EOp%2ByYFyIr2l3G0HGX9atXRg64ZGp%2BiB3hM7Gx9LYhO2WiCDt39d5AzRdhwMxT9BZKH3nNAsSH6X8eQyBQEiGpLxCFkp0eL484Et%2B3Vvhlxq7ud2LUc7hxrjDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7ebc43133daf3c07-BLR
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:15:48.116 [Thread-1]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/example/getAPI.feature
+18:15:48.168 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+18:15:48.170 [Thread-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
+10:03:54.509 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate - Karate version: 1.4.0
+10:03:54.658 [com.intuit.karate.cli.Main.main()]  INFO  com.intuit.karate.debug.DapServer - debug server started on port: 49152
+10:03:55.027 [nioEventLoopGroup-3-1]  DEBUG c.i.karate.debug.DapServerHandler - command line: /Users/pavan/Documents/demo/src/test/java/com/example/getAPI.feature:3
+10:03:55.121 [Thread-1]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1690259635120
+10:03:55.128 [Thread-1]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:03:56.498 [Thread-1]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:03:57.049 [Thread-1]  DEBUG com.intuit.karate - response time in milliseconds: 547
+1 < 200
+1 < Date: Tue, 25 Jul 2023 04:33:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FqX06s86IwBeVI%2F5IDqPo9qhDJYcRmbntgmCq6jSX82cdHth%2B3ok0S3kzp6fLLAG40RZbXDY%2BWe3TyhodNwFYZd%2BzpByeqJp2F2d1AWLHV%2Biv7m4vx7IC9Ig1Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7ec1b00a0d9d83f3-BLR
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+10:03:59.155 [nioEventLoopGroup-3-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutting down
+10:03:59.160 [nioEventLoopGroup-3-1]  INFO  com.intuit.karate.debug.DapServer - stop: shutdown complete
